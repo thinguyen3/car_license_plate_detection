@@ -42,7 +42,7 @@ import cv2
 import os
 import glob
 ```
-## Import data by uploading the zip file and extract all.
+## Import data by uploading the zip file and extract all
 
 ```
 from zipfile import ZipFile
@@ -94,7 +94,7 @@ for i in text_files:
 resizeannotation("./annotations/Cars17.xml")
 ```
 
-## Prepare the data for the CNN.
+## Prepare the data for the CNN
 
 ```
 #Transforming in array
@@ -223,7 +223,7 @@ Epoch 30/30
 Accuracy: 84.00
 ```
 
-## Results and Discussion:
+## Results and Discussion
 
 After trying many types of neural networks, changing various hyperparameters - batch size, epochs, learning, using learning rate schedule, tune weight initialization, defferent types of gradient descent, defferent activation functions, different cost functions, using of karas tuner, the accuracy score built from scratch was not good comparing with using pre-trained CNNs. I tried three pre-trained models (Resnet50, VGG16, VGG19), the VGG16 showed the best accuracy score.
 
