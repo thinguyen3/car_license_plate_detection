@@ -112,7 +112,7 @@ np.random.seed(seed)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=seed)
 ```
 
-## Implemented many types of neural networks, various hyperparameters, gradient descent, activation functions, cost functions, using of karas tuner, using pre-trained CNNs (Resnet50, VGG16, VGG19), VGG16 models showed the best accuracy score with the recognition rate is 84%. 
+*Implemented many types of neural networks, various hyperparameters, gradient descent, activation functions, cost functions, using of karas tuner, using pre-trained CNNs (Resnet50, VGG16, VGG19), VGG16 models showed the best accuracy score with the recognition rate is 84%.* 
 
 ### VGG16 pre-trained model
 
@@ -222,6 +222,12 @@ Epoch 30/30
 1/1 [==============================] - 10s 10s/step - loss: 0.0072 - accuracy: 0.8400
 Accuracy: 84.00
 ```
+
+## Results and Discussion:
+
+After trying many types of neural networks, changing various hyperparameters - batch size, epochs, learning, using learning rate schedule, tune weight initialization, defferent types of gradient descent, defferent activation functions, different cost functions, using of karas tuner, the accuracy score built from scratch was not good comparing with using pre-trained CNNs. I tried three pre-trained models (Resnet50, VGG16, VGG19), the VGG16 showed the best accuracy score.
+
+The framework of this implementation is flexible to re-configure into other real-life applications. And the recognition rate is 84% based on a 100 testing images trial. However, the model defined above is a very simple toy model. The training is straightforward and tests may not be reliable since the dataset is so small. However, it proves a concept that we can find plates from images with a simple CNN. This network may be used as a part of other more complicated networks.
 
     
 
