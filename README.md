@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/Run_in_Google_Colab-EE4C2C?logo=GoogleColab)](https://colab.research.google.com/drive/1TWdll3VPMMg90qZxWiJrsrIdRUT5AUH9)
+[![](https://img.shields.io/badge/Run_in_Google_Colab-EE4C2C?logo=GoogleColab)](https://drive.google.com/file/d/1TWdll3VPMMg90qZxWiJrsrIdRUT5AUH9/view?usp=sharing)
 
 # CAR LICENSE PLATE DETECTION 
 
